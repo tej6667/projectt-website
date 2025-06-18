@@ -1,0 +1,108 @@
+<!-- Tej Tandel Portfolio Website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tej Tandel | AWS Certified Solutions Architect & Cloud Professional" />
+  <title>Tej Tandel | DevOps Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-gray-50 via-blue-50 to-gray-200 text-gray-800 font-sans min-h-screen">
+  <header class="bg-white shadow-lg p-4 sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="https://avatars.githubusercontent.com/u/99112344?v=4" alt="Tej Tandel" class="w-12 h-12 rounded-full border-2 border-blue-500 shadow-sm">
+        <h1 class="text-2xl font-extrabold tracking-tight">Tej Tandel</h1>
+      </div>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-blue-600 font-medium transition">About</a>
+        <a href="#projects" class="hover:text-blue-600 font-medium transition">Projects</a>
+        <a href="#blog" class="hover:text-blue-600 font-medium transition">Blog</a>
+        <a href="#contact" class="hover:text-blue-600 font-medium transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto mt-12 px-4">
+    <!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center gap-8 mb-16">
+      <div class="flex-1">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-blue-700">DevOps Engineer & Cloud Architect</h2>
+        <p class="text-lg text-gray-700 mb-6">
+          Hi, I'm <span class="font-semibold text-blue-600">Tej Tandel</span> — passionate about building scalable, secure, and automated cloud infrastructure. I thrive on solving complex problems with <span class="font-semibold">AWS, Terraform, Docker, Kubernetes, and CI/CD</span>.
+        </p>
+        <div class="flex gap-4 mt-4">
+          <a href="mailto:tej.tandel@example.com" class="bg-blue-600 text-white px-5 py-2 rounded shadow hover:bg-blue-700 transition"><i class="fa-solid fa-envelope mr-2"></i>Contact Me</a>
+          <a href="https://github.com/tej6667" target="_blank" class="bg-gray-800 text-white px-5 py-2 rounded shadow hover:bg-gray-900 transition"><i class="fa-brands fa-github mr-2"></i>GitHub</a>
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=facearea&w=400&q=80" alt="Cloud DevOps" class="rounded-xl shadow-lg w-72 h-72 object-cover border-4 border-blue-200">
+      </div>
+    </section>
+
+    <section id="about" class="mb-14">
+      <h3 class="text-2xl font-bold mb-3 text-blue-700 flex items-center gap-2"><i class="fa-solid fa-user"></i> About Me</h3>
+      <p class="text-gray-700 leading-relaxed">
+        AWS Certified Solutions Architect based in Toronto, Canada. I design, automate, and deploy cloud-native infrastructure using <span class="font-semibold">Terraform, Docker, Kubernetes, Ansible, and CI/CD tools</span>. My focus is on reliability, security, and scalability.
+      </p>
+      <div class="flex flex-wrap gap-3 mt-4">
+        <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">AWS</span>
+        <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">Terraform</span>
+        <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm font-medium">Ansible</span>
+        <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium">Kubernetes</span>
+        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">CI/CD</span>
+        <span class="bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-sm font-medium">Docker</span>
+      </div>
+    </section>
+
+    <section id="projects" class="mb-14">
+      <h3 class="text-2xl font-bold mb-3 text-blue-700 flex items-center gap-2"><i class="fa-solid fa-diagram-project"></i> Projects</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-lg shadow p-5 hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Automate EC2 Web Server Deployment</h4>
+          <p class="text-gray-600 mb-2">AWS, Terraform, S3 Remote State</p>
+          <a href="https://dev.to/tejtandel/deploy-a-website-on-aws-ec2-using-terraform-with-s3-backup-3jjd" target="_blank" class="text-blue-600 hover:underline">Read More</a>
+        </div>
+        <div class="bg-white rounded-lg shadow p-5 hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">Secure EC2 Web Server with Multi-AZ</h4>
+          <p class="text-gray-600 mb-2">Terraform, VPC, Remote State</p>
+          <a href="https://dev.to/tejtandel/deploy-a-secure-ec2-web-server-with-terraform-multi-az-and-remote-state-on-aws-401g" target="_blank" class="text-blue-600 hover:underline">Read More</a>
+        </div>
+        <div class="bg-white rounded-lg shadow p-5 hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">AWS VPC with Multi-AZ NAT Gateway</h4>
+          <p class="text-gray-600 mb-2">Terraform, AWS Networking</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-5 hover:shadow-lg transition">
+          <h4 class="font-semibold text-lg mb-2">CI/CD Pipeline to EC2</h4>
+          <p class="text-gray-600 mb-2">GitHub Actions, EC2 Deployment</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="mb-14">
+      <h3 class="text-2xl font-bold mb-3 text-blue-700 flex items-center gap-2"><i class="fa-solid fa-pen-nib"></i> Blog</h3>
+      <p class="text-gray-700 mb-2">
+        I regularly write on <a href="https://dev.to/" target="_blank" class="text-blue-600 font-semibold hover:underline">Dev.to</a>.
+      </p>
+      <a href="https://dev.to/tejtandel" target="_blank" class="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition"><i class="fa-brands fa-dev mr-2"></i>Visit My Dev.to Blog</a>
+    </section>
+
+    <section id="contact" class="mb-14">
+      <h3 class="text-2xl font-bold mb-3 text-blue-700 flex items-center gap-2"><i class="fa-solid fa-address-book"></i> Contact</h3>
+      <ul class="space-y-2 text-gray-700">
+        <li><i class="fa-solid fa-envelope text-blue-600 mr-2"></i>Email: <a href="mailto:tej.tandel@example.com" class="text-blue-600 hover:underline">tej.tandel@example.com</a></li>
+        <li><i class="fa-brands fa-linkedin text-blue-600 mr-2"></i>LinkedIn: <a href="http://www.linkedin.com/in/tej-tandel" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/tej-tandel</a></li>
+        <li><i class="fa-brands fa-github text-blue-600 mr-2"></i>GitHub: <a href="https://github.com/tej6667" target="_blank" class="text-blue-600 hover:underline">github.com/tej6667</a></li>
+        <li><i class="fa-solid fa-location-dot text-blue-600 mr-2"></i>Location: Toronto, ON</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="text-center text-gray-500 text-sm py-6 mt-10 border-t">
+    © 2025 Tej Tandel. All rights reserved.
+  </footer>
+</body>
+</html>
